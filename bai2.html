@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function listPrime() {
+        let mangSoNguyen1 = [10, 5, 2, 8 , 7, 13];
+        let ketqua1 = [];
+        for (i = 0; i < mangSoNguyen1.length; i++){
+            if (mangSoNguyen1[i] % 1 == 0 && mangSoNguyen1[i] % mangSoNguyen1[i]== 0){
+                ketqua1.push(mangSoNguyen1);
+                return ketqua1;
+            }
+        }
+    }
+    listPrime();
+</script>
+
+</body>
+</html>
